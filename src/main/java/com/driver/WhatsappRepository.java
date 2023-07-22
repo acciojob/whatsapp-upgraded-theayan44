@@ -103,7 +103,7 @@ public class WhatsappRepository {
             if(currGroupMembers.contains(user)){
                 userFound = true;
                 userGroup = currGroup;
-                break;
+//                break;
             }
         }
         if(!userFound){
